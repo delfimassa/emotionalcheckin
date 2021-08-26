@@ -1,0 +1,61 @@
+.bgNavbar{
+    background-color: #6F4C5B;
+}
+.bgWhy{
+  background-color: #F5E8C7;
+}
+.emotions{
+  opacity: 80%;
+}
+/*MEDIA QUERIES*/
+/*X-SMALL DEVICES */
+@media all and (max-width: 576px) {
+    .noxs {
+    display: none;
+  }
+  .justificadoFooter{
+    text-decoration: none;
+    justify-content: center;
+
+  }
+}
+/*SMALL DEVICES*/
+@media all and (min-width: 576px) and (max-width: 767px) {
+    .nosm {
+    display: none;
+  }
+  .justificadoFooter{
+    text-decoration: none;
+    justify-content: center;
+  }
+}
+/*MEDIUM DEVICES*/
+@media all and (min-width: 767px) and (max-width: 991px) {
+    .nomd {
+    display: none;
+  }
+  .justificadoFooter{
+    text-decoration: none;
+    justify-content: flex-start;
+  }
+}
+/*LARGE DEVICES*/
+@media all and (min-width: 991px) and (max-width: 1200px) {
+    .nolg {
+    display: none;
+  }
+  .justificadoFooter{
+    text-decoration: none;
+    justify-content: flex-start;
+  }
+}
+/*XTRA LARGE DEVICES*/
+@media all and (min-width: 1200px) {
+    .noxl {
+    display: none;
+  }
+  .justificadoFooter{
+    text-decoration: none;
+    justify-content: flex-start;
+  }
+}
