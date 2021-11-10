@@ -53,6 +53,7 @@ const Inicio = () => {
           <div className="text-center nomd emotions">
             <img className="nolg" src={call} alt="charla" width="100%" />
             <img className="noxs noxs noxl"src={call2} alt="charla" width="100%" />
+            <p>Probando que pasa con netlify o git que no actualizann</p>
             </div>
         </div>
       </div>
